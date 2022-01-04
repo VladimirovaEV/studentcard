@@ -252,6 +252,74 @@ body {
 .contacts__item:hover .contacts__icon path {
   fill: #8643dc;
 }
-/* .contacts__icon path:hover {
-  fill: #8643dc;
-} */
+@media (max-width: 1200px) {
+  .about {
+    padding: 50px 0;
+    background-size: 200px;
+    background-position: right 10% top 45%;
+  }
+  .purpose {
+    padding: 0 0 50px;
+  }
+  .courses {
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .purpose__inner {
+    flex-direction: column;
+  }
+  .purpose__info,
+  .purpose__timу {
+    flex: 0 0 0%;
+  }
+  .purpose__info {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 670px) {
+  .menu__list {
+    margin-bottom: 50px;
+  }
+  .header__main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__info {
+    text-align: center;
+  }
+  .header__text-link {
+    margin-bottom: 20px;
+  }
+  .header__main {
+    margin-bottom: 30px;
+  }
+  .header__button {
+    margin-left: 25%;
+  }
+  .about {
+    background-size: 150px;
+  }
+}
+@media (max-width: 480px) {
+  .header__button {
+    margin-left: 17%;
+  }
+  .header__menu {
+    display: none;
+  }
+  .about {
+    background: none;
+  }
+  .courses__items {
+    padding: 30px 10px;
+  }
+  .courses__item-title {
+    padding-left: 1%;
+  }
+}
+@media (max-width: 375px) {
+  .header__button {
+    margin-left: 6%;
+  }
+}
